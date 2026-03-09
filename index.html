@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Teclado Para Iniciantes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-pattern"></div>
+    
+    <div class="container">
+        <div class="tv-set">
+            <!-- Antena da TV -->
+            <div class="antenna">
+                <div class="antenna-left"></div>
+                <div class="antenna-right"></div>
+            </div>
+            
+            <!-- Corpo da TV -->
+            <div class="tv-body">
+                <!-- Tela -->
+                <div class="screen-frame">
+                    <div class="screen-glass">
+                        <div class="screen-reflection"></div>
+                        <div id="videoContainer" class="video-container">
+                            <iframe id="youtubePlayer" 
+                                    src="https://www.youtube.com/embed/WqxHlt1nwNQ?enablejsapi=1&playsinline=1" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="scanlines"></div>
+                    </div>
+                </div>
+                
+                <!-- Informações do Canal -->
+                <div class="channel-display">
+                    <div class="led-light"></div>
+                    <div class="channel-info">
+                        <span class="channel-label">AULA</span>
+                        <span id="channelNumber" class="channel-number">01</span>
+                    </div>
+                </div>
+                
+                <!-- Painel de Controle -->
+                <div class="control-panel">
+                    <div class="control-group">
+                        <div class="control-label">Aula</div>
+                        <button class="control-btn" id="channelUp" title="Canal Anterior">▲</button>
+                        <button class="control-btn" id="channelDown" title="Próximo Canal">▼</button>
+                    </div>
+                    
+                    <div class="control-group">
+                        <div class="control-label">VOLUME</div>
+                        <button class="control-btn" id="volumeUp" title="Aumentar Volume">+</button>
+                        <button class="control-btn" id="volumeDown" title="Diminuir Volume">−</button>
+                    </div>
+                    
+                    <div class="control-group">
+                        <div class="control-label">PLAYER</div>
+                        <button class="control-btn wide" id="playPause" title="Play/Pause">▶ ❚❚</button>
+                        <button class="control-btn wide" id="stop" title="Parar">■</button>
+                        <button class="control-btn wide" id="mute" title="Mudo">🔇</button>
+                    </div>
+                </div>
+                
+                <!-- Marca da TV -->
+                <div class="tv-brand">CURSOS ON LINE</div>
+            </div>
+            
+            <!-- Pés da TV -->
+            <div class="tv-stand"></div>
+        </div>
+        
+        <!-- AULAS DO CURSO -->
+        <div class="channel-list">
+            <h3>📺 Curso de Teclado Para Iniciantes</h3>
+            <div id="channelListContainer"></div>
+        </div>
+    </div>
+     
+     <div class="buttons" margin="10px">
+                    <a href="https://pedrocorreialopes.github.io/cursos-on-line" class="button" target="_blank">Voltar para lista de cursos</a>
+     </div>
+    
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>Desenvolvido por Pedro Correia</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
