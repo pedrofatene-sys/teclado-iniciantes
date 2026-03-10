@@ -34,6 +34,12 @@ const channels = [
     { id: 'TfbxbvG5edI', name: '3 truques de mestre para tocar qualquer música no teclado' },
     { id: 'dLRFhyTWelM', name: 'Qual o melhor teclado para iniciantes' },
     { id: 'vwcG7M8SmL4', name: 'Esse Truque fácil me fez 100X melhor no Teclado' },
+    { id: 'PmZNXA8kIDk', name: 'Como Tocar Teclado como um profissional em Minutos com este segredo!' },
+    { id: 'WG3R2rf9gZU', name: 'Música Mais fácil de Tocar no Teclado' },
+    { id: '2qi0tuO6N_M', name: 'Isso Mudou Meu Jeito de Tocar - dedilhado do Básico ao Avançado' },
+    { id: 'MGGxe6arwMs', name: 'Você Está Errando ao Tocar acordes no Teclado? Descubra Agora!' },
+    { id: 'dTV44DFKLUY', name: 'Matemática na Música | Como Tocar em Todos os Tons! Descubra Agora!' },
+    { id: 'DPn8Pl19HSs', name: 'Toque Qualquer FORRÓ NO TECLADO usando essas Levadas INCRÍVEIS!' },
 ];
 
 // Estado atual
